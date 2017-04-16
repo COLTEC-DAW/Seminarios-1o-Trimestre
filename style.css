@@ -1,0 +1,461 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+@import url("https://fonts.googleapis.com/css?family=Muli");
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+@media screen and (min-width: 1024px) {
+  .l1 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 6.125%; }
+
+  .l2 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 12.25%; }
+
+  .l3 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 18.375%; }
+
+  .l4 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 24.5%; }
+
+  .l5 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 30.625%; }
+
+  .l6 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 36.75%; }
+
+  .l7 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 42.875%; }
+
+  .l8 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 49%; }
+
+  .l9 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 55.125%; }
+
+  .l10 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 61.25%; }
+
+  .l11 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 67.375%; }
+
+  .l12 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 73.5%; }
+
+  .l13 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 79.625%; }
+
+  .l14 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 85.75%; }
+
+  .l15 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 91.875%; }
+
+  .l16 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 98%; } }
+@media screen and (min-width: 648px) and (max-width: 1023px) {
+  .m1 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 6.125%; }
+
+  .m2 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 12.25%; }
+
+  .m3 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 18.375%; }
+
+  .m4 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 24.5%; }
+
+  .m5 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 30.625%; }
+
+  .m6 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 36.75%; }
+
+  .m7 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 42.875%; }
+
+  .m8 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 49%; }
+
+  .m9 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 55.125%; }
+
+  .m10 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 61.25%; }
+
+  .m11 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 67.375%; }
+
+  .m12 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 73.5%; }
+
+  .m13 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 79.625%; }
+
+  .m14 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 85.75%; }
+
+  .m15 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 91.875%; }
+
+  .m16 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 98%; } }
+@media screen and (max-width: 647px) {
+  .s1 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 6.125%; }
+
+  .s2 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 12.25%; }
+
+  .s3 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 18.375%; }
+
+  .s4 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 24.5%; }
+
+  .s5 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 30.625%; }
+
+  .s6 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 36.75%; }
+
+  .s7 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 42.875%; }
+
+  .s8 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 49%; }
+
+  .s9 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 55.125%; }
+
+  .s10 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 61.25%; }
+
+  .s11 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 67.375%; }
+
+  .s12 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 73.5%; }
+
+  .s13 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 79.625%; }
+
+  .s14 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 85.75%; }
+
+  .s15 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 91.875%; }
+
+  .s16 {
+    float: left;
+    padding: 0%;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    width: 98%; } }
+.container {
+  margin: 0%;
+  padding: 0%;
+  overflow: hidden;
+  font-family: "Architects Daughter", cursive;
+  font-size: 20px;
+  -webkit-animation: mymove 4s;
+  animation: mymove 4s; }
+
+@-webkit-keyframes mymove {
+  0% {
+    transform: translateY(50%); }
+  100% {
+    transform: translateY(0); } }
+@keyframes mymove {
+  0% {
+    transform: translateY(50%); }
+  100% {
+    transform: translateY(0); } }
+p {
+  padding: 1%;
+  text-align: left;
+  font-family: 'Muli', sans-serif;
+  font-size: 90%;
+  margin: 1%;
+  text-align: justify; }
+
+body {
+  background-color: #D8E3F2; }
+
+footer {
+  margin: auto;
+  padding: auto;
+  text-align: center;
+  font-size: 0.7cm;
+  background-color: #AECCF2; }
+
+footer p {
+  font-family: 'Pacifico', cursive; }
+
+img {
+  width: 95%;
+  margin: auto;
+  display: block;
+  padding: 5px;
+  filter: blur(1px); }
+
+i {
+  color: black; }
+
+h2 {
+  font-family: 'Indie Flower', cursive;
+  margin: 1%;
+  text-align: center; }
+
+h3 {
+  font-family: 'Indie Flower', cursive;
+  margin: 1%;
+  padding-top: 1%;
+  font-size: 130%; }
+
+#antes {
+  display: inline; }
+
+#botao {
+  display: inline;
+  background-color: #27498C;
+  padding: 3px;
+  border: 0px solid;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  position: relative; }
+
+#botao:hover {
+  background-color: #3767A6; }
+
+.card {
+  display: block;
+  width: 15%;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3%;
+  border: 0px solid;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  text-align: center; }
+
+.card:hover {
+  background-color: #3767A6;
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3); }
+
+.card p {
+  text-align: center; }
+
+.resumo div {
+  background-color: #27498C; }
+
+.conteudo div {
+  background-color: #D8E3F2; }
+
+.educacao {
+  display: block;
+  margin: auto; }
+
+.conhecimento {
+  display: block;
+  margin: auto; }
+
+.conhecimento .card {
+  background-color: #27498C; }
+
+.conhecimento .card:hover {
+  background-color: #3767A6; }
+
+/*# sourceMappingURL=style.css.map */
