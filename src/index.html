@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./index.css">
+
+    <title>Forms</title>
+  </head>
+  <body>              
+    <div class="container">
+        <form>
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <div class="form-group">
+                    <label>Código:</label> 
+                    <input name="codigo" value="001" class="form-control"  readonly> </br>
+                </div>
+                <div class="form-group">
+                    <label>Nome:</label> 
+                    <input type="text" class="form-control" placeholder="Name" name="nome"> </br>
+                </div>
+                <div class="form-group">
+                    <label>Senha:</label>
+                    <input type="password" class="form-control" placeholder="Password" name="senha"> </br>
+                </div>
+                
+                <label>Sexo:</label> </br>
+                <div class="form-group form-check form-check-inline">
+                    <div class="form-check form-check-inline">
+                        <input type="radio" name="genero"> Masculino 
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input type="radio" name="genero"> Feminino 
+                    </div>
+                </div>                
+                <div class="form-group">
+                    <label>Idade:</label>
+                    <input type="text" class="form-control" name="idade" size="2"> </br>
+                </div>
+                <div class="form-group">
+                    <label>Cartão de Crédito:</label></br> 
+                    <select multiple class="form-control" name="cartao">
+                        <option value="mastercard">Mastercard</option>
+                        <option value="visa">Visa</option>
+                        <option value="American Express">American Express</option>
+                    </select>
+                </div>
+            </fieldset>
+            <fieldset>
+                <div class="form-group">
+                    <label>Cargo:</label>
+                    <select class="form-control" name="cargo">
+                        <option value="junior">Analista Junior</option>
+                        <option value="pleno">Analista Pleno</option>
+                        <option value="senior">Analista Senior</option>
+                    </select> </br>
+                </div>
+
+                <label>Dados Pessoais: </label> </br>
+                <div class="form-group form-check form-check-inline">
+                    <div class="form-group form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="fumante" value="fumante"> Fumante </br>
+                    </div>
+                    <div class="form-group form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="exercicio_fisico" value="exercicio_fisico"> Pratica Exercício Físico</br>
+                    </div>
+                    <div class="form-group form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="bebida_alcoolica" value="bebida_alcoolica"> Consome bebida alcoólica</br>
+                    </div>
+                    
+                </div>
+                <div class="form-group">
+                    <label>Experiências Profissionais:</label></br>
+                    <textarea class="form-control" name="exp_pro" cols="50" rows="3" placeholder="Data Inicio/Data Fim/Empresa/Cargo"></textarea> </br>
+                </div>
+                <legend>Dados Profissionais</legend>
+            </fieldset>
+        </form>
+        <div class="float-right">
+            <button class="ml-auto btn btn-primary" type="button" name="submitButton">Inserir</button>
+            <button class="ml-auto btn btn-danger" type="button" name="resetButton">Limpar</button> 
+        </div>
+        
+    </div> 
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  </body>
+</html>
