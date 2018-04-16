@@ -6,7 +6,10 @@
 
 **Valor: 7 pontos**
 
-Esse seminários é dividido em duas partes: apresentação e exercícios.
+## Exercícios
+
+Você deverá implementar usando Bootstrap 4 uma página qualquer usando uma barra de navegação que terá 4 seções, que deverão, quando selecionadas, direcionar para a seção da página. O menu deverá ser colapsado quando o equipamento("device") tiver uma largura pequena.
+Lembre-se de usar o sticky ao invés do affix. [Sticky Placement Bootstrap](https://getbootstrap.com/docs/4.0/components/navbar/#placement)
 
 ## Apresentação
 
@@ -28,10 +31,5 @@ Sua apresentação deverá ter, obrigatóriamente:
 3. Exercício que envolva os componentes apresentados em aula.
 
 *Importante: Seu grupo deverá criar um repositório para entrega dos exercícios, e adicionar o professor como colaborador do repositório.*
-
-
-## Exercícios
-
-Você deverá escolher um dos tópicos apresentados pelo outro grupo e então fazer o exercício proposto por ele. A metodologia segue a mesma dos exercícios de aula. Fazer o fork, implementar os exercícios, e então entregar na forma de pull request.
 
 *Data de entrega: 17/04/2016*
