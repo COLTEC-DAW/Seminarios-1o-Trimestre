@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <title>Exercicio - Seminário de DAW - Buttons and forms</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <form class="col-md-8 offset-md-2" style="padding: 20px">
+
+                <legend class="mx-auto"> Dados pessoais </legend>
+                <hr> <br>
+
+                <div class="form-row">
+                    <div class="form-group col-md-12">
+                        <label for="codigo">Código</label>
+                        <input type="number" class="form-control" id="codigo" disabled placeholder="001">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="nome">Nome</label>
+                        <input type="text" class="form-control" id="nome" placeholder="Nome:">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="senha">Senha</label>
+                        <input type="password" class="form-control" id="password" placeholder="Senha:">
+                    </div>
+                </div>
+
+                <label>Sexo</label> <br>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-secondary active">
+                        <input type="radio" name="options"> Masculino </input>
+                    </label>
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="options"> Feminino </input>
+                    </label>
+                </div>
+
+                <div class="form-row" style="margin-top: 15px">
+                    <div class="form-group col-md-6">
+                        <label for="idade">Idade</label>
+                        <input type="number" class="form-control" id="idade">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="credit">Cartão de Crédito</label>
+                        <select multiple class="form-control" id="credit">
+                            <option selected>Mastercard</option>
+                            <option>Visa</option>
+                            <option>American Express</option>
+                        </select>
+                    </div>
+                </div> <br>
+
+                <legend class="mx-auto"> Dados profissionais </legend>
+                <hr> <br>
+
+                <div class="form-group">
+                    <label for="cargo">Cargo</label>
+                    <select id="cargo" class="form-control">
+                        <option selected>Analista Pleno</option>
+                        <option>Analista Sênior</option>
+                        <option>Analista Júnior</option>
+                    </select>
+                </div>
+
+                <label> Dados pessoais </label> <br>
+
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="check_fumante">
+                    <label class="custom-control-label" for="check_fumante">Fumante</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="check_exerc">
+                        <label class="custom-control-label" for="check_exerc">Pratica Exercícios Físicos</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="check_bebida">
+                    <label class="custom-control-label" for="check_bebida">Consome bebida alcoólica</label>
+                </div> <br>
+
+                <div class="form-group">
+                    <label>Experiências Profissionais:</label></br>
+                    <textarea class="form-control" name="exp_pro" cols="50" rows="3" placeholder="Data Inicio/Data Fim/Empresa/Cargo"></textarea> </br>
+                </div>
+
+                <div class="float-left">
+                    <button class="ml-auto btn btn-success" type="submit" name="submitButton">Inserir</button>
+                    <button class="ml-auto btn btn-danger" type="reset" name="resetButton">Limpar</button> 
+                </div> <br><br>
+
+            </form>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    </body>
+</html>
+    
