@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>ExercicioDeOutroGrupo</title>
+    <!-- Dados Bootstrap  CSS -->
+    <link href="dados/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container-fluid">
+      <form>
+        <div class="form-group">
+          <h2>Dados Pessoais</h2>
+          <button type="reset" value="Reset" class="btn-danger btn-md float-right">Limpar</button>
+          <label for="codigo">Código:</label>
+          <input type="number" class="form-control" id="codigo" placeholder="Insira o código" name="codigo">
+
+          <label for="nome">Nome:</label>
+          <input type="text" class="form-control" id="nome" placeholder="Insira o seu nome" name="nome">
+
+          <label for="senha">Senha:</label>
+          <input type="password" class="form-control" id="senha" placeholder="Insira sua senha" name="senha">
+
+          <label for="sexo">Sexo:</label>
+          <div class="radio">
+            <label><input type="radio" name="sexo">Masculino</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="sexo">Feminino</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="sexo">Outro</label>
+          </div>
+
+          <label for="idade">Idade:</label>
+          <input type="number" class="form-control" id="idade" placeholder="Insira sua idade" name="idade">
+
+          <label for="email">Cartão de Crédito:</label>
+          <select class="form-control" id="lista">
+            <option>Mastercard</option>
+            <option>Visa</option>
+            <option>American Express</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <h2>Dados Profissionais</h2>
+
+          <label for="email">Cargo:</label>
+          <select class="form-control" id="lista">
+            <option>Analista Júnior</option>
+            <option>Analista Pleno</option>
+            <option>Analista Sênior</option>
+          </select>
+
+          <label for="dadosPessoais">Dados Pessoais:</label>
+          <div class="checkbox">
+            <label><input type="checkbox" value="">Fumante</label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" value="">Pratica Exercícios Físicos</label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" value="">Consome Bebida Alcoólica</label>
+          </div>
+          <label for="experienciasProfissionais">Experiencias Profissionais:</label>
+          <textarea class="form-control" rows="5" id="comment" placeholder="Data Início/Data Fim/Empresa/Cargo"></textarea>
+        </div>
+
+        <button type="submit" class="btn-outline-success btn-lg btn-block">Enviar</button>
+      </form>
+
+    </body>
+    </html>
+    <!-- Código Bootstrap  JavaScript -->
+    <script src="dados/jquery/jquery.min.js"></script>
+    <script src="dados/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>
